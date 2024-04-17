@@ -1,0 +1,35 @@
+﻿{
+  "WorldMaxX": 10, // Maksimal x-koordinat for spilverdenen
+  "WorldMaxY": 10, // Maksimal y-koordinat for spilverdenen
+  "Creatures": [
+    {
+      "Name": "Leonard Caruso", // Navn på den udstyrede skabning
+      "MaxHealth": 150, // Maksimal sundhed for skabningen
+      "StartingX": 1, // Start x-koordinat for skabningen
+      "StartingY": 1 // Start y-koordinat for skabningen
+    },
+    {// Disse er fra spilet a way out
+      "Name": "Vincent Moretti", // Navn på den ubevæbnede skabning
+      "MaxHealth": 150, // Maksimal sundhed for skabningen
+      "StartingX": 1, // Start x-koordinat for skabningen
+      "StartingY": 2 // Start y-koordinat for skabningen
+    }
+  ],
+  "ChestItems": [
+    {
+      "Type": "AttackItem", // Type af objektet i kisten
+      "Name": "Sword", // Navn på angrebsobjektet
+      "Quantity": 1 // Antal af objektet i kisten
+    },
+    {
+      "Type": "DefenceItem", // Type af objektet i kisten
+      "Name": "Shield", // Navn på forsvarsobjektet
+      "Quantity": 1 // Antal af objektet i kisten
+    },
+    {
+      "Type": "Consumable", // Type af objektet i kisten
+      "Name": "Health Potion", // Navn på forbrugsobjektet
+      "Quantity": 3 // Antal af objektet i kisten
+    }
+  ]
+}
